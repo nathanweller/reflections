@@ -6,3 +6,8 @@ How is the staging area different from the working directory and the repository?
 
 The staging area offers a place to put files before committing them to the repo.  If making multiple changes, it may make more sense to stage files in groups that work together, and cut down on complexity.
 
+Don't forget to run git checkout master before you commit to move to the HEAD which might be 'detached'.
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+By making sure the files in the staging area are all involved with one change before doing a mass commit.

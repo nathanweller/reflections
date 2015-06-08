@@ -1,0 +1,8 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+When you init, a new folder called .git is created in the same directory and the files in the folder can become part of the respository.  You can run git status to see the status of the repo, as it will not do any initial commit for you.  You have to do the first commit, as it will let you create the commit message and this gives you a chance to make any changes before the first commit.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+The staging area offers a place to put files before committing them to the repo.  If making multiple changes, it may make more sense to stage files in groups that work together, and cut down on complexity.
+

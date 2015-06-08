@@ -11,3 +11,13 @@ Don't forget to run git checkout master before you commit to move to the HEAD wh
 How can you use the staging area to make sure you have one commit per logical change?
 
 By making sure the files in the staging area are all involved with one change before doing a mass commit.
+
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+A branch allows for experimentation off of the master branch, so you don't have to worry about having bad code that may not work, or you can test new things.  If they work out, you can merge in, if not, the branch can be left alone.
+
+
+How do the diagrams help you visualize the branch structure?
+
+They can show where branches split so you can tell if they were before/after a specific feature, and show the status of each branch.  

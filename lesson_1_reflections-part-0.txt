@@ -1,0 +1,27 @@
+I've learned how to create the .bash_profile file that I didn't have on OS X, and then how to edit it to allow opening Sublime Text 2 by just typing "subl".
+
+To create the file from the command prompt:
+http://apple.stackexchange.com/questions/99835/how-to-create-bash-profile-and-profile
+
+	cd ~
+	sudo nano .bash_profile
+
+Then added the following line to the newly created file:
+	
+	export PATH=$PATH:/Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin
+
+Then pressed Ctrl+O to write the file out, then Ctrl+x to close out of nano.
+
+To refresh the terminal, you could close or reopen, but I also saw you can just type 
+	. .bash_profile
+And the changes worked, because I was then able to type in 
+	cd ~                          # change directories to your home directory
+	mkdir version-control         # make version-control directory
+	cd version-control            # go to version-control directory
+	mkdir reflections             # create reflections directory
+	cd reflections                # go to reflections directory
+	subl lesson_1_reflections.txt # launch sublime with file called lesson_1_reflections.txt (you can replace subl with another editor here if you prefer a different one)
+
+And here I was.
+
+

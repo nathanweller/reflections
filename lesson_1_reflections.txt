@@ -1,0 +1,18 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+The diff helps cut out identical parts of the file and only highlight the parts that have been changed, whether they were added, deleted, or are just different.
+
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+I think this would allow me to feel better about trying new things, and that if they work or don't work, I don't have to worry about having to back track or remember what I had done before to make a program work.  I would be able to bookmark a working file before moving on, or keep track of good versions of a program so that I could continue with something I may not be sure of.
+
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google docs does?
+
+Autosaves are good for when you are in a 'flow' state and might not be thinking to save, and in case of disaster this can be a life-saver.  However, in coding, I would rather be saving working versions of a program and not incomplete thoughts, or versions that will not work or compile.  I wouldn't mind an autosave if it's been a long time, but wouldn't necessarily trust it as much as a save made by myself noting that the program is in working order.  
+
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+Generally, a google doc wouldn't be depending on other files.  With a git repo, changes could track across groups of files.  

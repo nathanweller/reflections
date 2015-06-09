@@ -1,0 +1,3 @@
+When would you want to use a remote repository rather than keeping all your work local?
+
+In any case where I'd be working with a group that may all want to keep an eye on the most current version of a project, or in the case where I would like to have an online backup of work instead of trusting all the work to one local machine.  In the event of a disaster, it would be good to have the online version that could be restored to any machine.

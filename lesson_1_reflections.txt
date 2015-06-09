@@ -16,3 +16,18 @@ Autosaves are good for when you are in a 'flow' state and might not be thinking 
 Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
 
 Generally, a google doc wouldn't be depending on other files.  With a git repo, changes could track across groups of files.  
+
+
+How can you use the commands git log and git diff to view the history of files?
+
+Use git log to see the log of commits (up/down to navigate, q to quit) and then use git diff followed by two of the commit codes - you can copy/paste them or just use the first 4 characters if eyeballing it.
+
+
+How might using version control make you more confident to make changes that could break something?
+
+If you weren't using version control and made several changes only to find hours later that a bug has been introduced, it could mean a much longer time to fix the problem.  With version control, you could check and compare to find a time before the bug, and compare to find where it happened.
+
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+Eventually, I want to find out how to best get this integrated with Xcode.  In the meantime, it may also come in handy with other text files.

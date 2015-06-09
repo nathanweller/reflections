@@ -22,3 +22,8 @@ Having a copy of the last known state allows one to work offline if you may need
 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 
 Depending on the format, a similar system like Google Docs allows for a collaborative space without having to trade versions of files, but makes history difficult and merging impractical.  Passing raw files back in forth in email has potential to be a nightmare but allows for individual offline editing and a very rough version of history by looking back at older files.
+
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+When suggesting a change that you don't want to immediately affect the master, it would make mor sense to branch off and initiate a pull request once it's all ready.  

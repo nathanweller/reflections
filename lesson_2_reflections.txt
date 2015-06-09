@@ -21,3 +21,14 @@ A branch allows for experimentation off of the master branch, so you don't have 
 How do the diagrams help you visualize the branch structure?
 
 They can show where branches split so you can tell if they were before/after a specific feature, and show the status of each branch.  
+
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+The branches become one again, and their code is merged if possible to do so programattically.
+
+
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Automatic is obviously easier - if the code is well put together and non ambiguous.  Otherwise, manual may be easier to sort out the changes before merging.
